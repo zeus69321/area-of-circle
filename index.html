@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" >
+        <meta name="viewport" content="width=device-width,initial-scale=1" >
+        <meta http-equiv="refresh" content="45">
+        <meta name="author" content="terminator" >
+        <meta name="description" content="a really cool calc " >
+        <style>
+            #body{
+                background-image: url('download.jpeg');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+            }
+            .h1{
+                display: inline;
+                color: white;
+                background-color: black;
+            }
+            #b1{
+                color: black;
+                background-color: yellow;
+                cursor: pointer;
+                width: 70px;
+                height: 35px;
+                border-radius: 20px;
+                font-family: 'roboto mono';
+                transition: opacity 1s;
+            }
+            #b1:active{
+                width: 100px;
+                height: 60px;
+            }
+            #p1{
+             color: white;
+                
+            }
+            #b1:hover{
+                opacity: 0.5;
+            }
+        </style>
+    </head>
+    <body id="body">
+        <h1 class="h1" > AREA OF CIRCLE </h1>
+        <br>
+        <br>
+        <label for="areaofc" class="h1"> ENTER THE RADIUS OF CIRCLE :- </label>
+        <input type="text" id="i1" >
+        <br>
+    <br>
+    <button type="submit" id="b1"> SUBMIT </button>
+    <br>
+    <br>
+    <hr>
+    <p id="p1"></p>
+
+        
+        <script src="index.js" > </script>
+    </body>
+</html>
